@@ -1,0 +1,67 @@
+.container
+{
+	width: 100%;
+
+}
+.wrapper
+{
+	width: 900px;
+	margin: auto;
+}
+.dark
+{
+	background-color: #b35018;
+	color: white;
+}
+.dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+*{
+	margin:0px;
+	}
+ul li
+{
+	
+	width: 130px;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+ul li a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+ul li a:hover
+{
+	background-color: orange;
+	color:black;
+}
+
+ul li{
+	cursor: pointer;
+	margin-left: 65px;
+}
